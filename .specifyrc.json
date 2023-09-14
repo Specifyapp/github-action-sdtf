@@ -1,0 +1,18 @@
+{
+  "version": "2",
+  "repository": "@acme-inc/Design-System",
+  "rules": [
+    {
+      "name": "CSS Variables",
+      "parsers": [
+        {
+          "name": "to-css-custom-properties",
+          "output": {
+            "type": "file",
+            "filePath": "specify_output/tokens.css"
+          }
+        }
+      ]
+    }
+  ]
+}
