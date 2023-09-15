@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Install Specify CLI
-        run: npm install -g @specifyapp/cli;
+        run: npm install -g @specifyapp/cli@beta;
       - name: Pull design data from Specify
         run: |
           specify pull \
